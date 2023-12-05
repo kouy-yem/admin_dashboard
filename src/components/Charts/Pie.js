@@ -12,7 +12,7 @@ import {
 import { useStateContext } from '../../contexts/ContextProvider';
 
 
-const Pie = ({id, data, legendVisiblity, height}) => {
+const PieChart = ({id, data, legendVisiblity, height}) => {
   const {currentMode} = useStateContext();
 
   return (
@@ -51,4 +51,4 @@ const Pie = ({id, data, legendVisiblity, height}) => {
   )
 }
 
-export default Pie
+export default PieChart;
